@@ -26,7 +26,8 @@ export interface FileData {
     icon?: ChonkyIconName | string | any; // Icon to use for this file
     thumbnailUrl?: string; // Automatically load thumbnail from this URL
     folderChainIcon?: Nullable<ChonkyIconName | string | any>; // Folder chain icon
-
+    tocheck?: any ; // testcolomn
+    toverify?: any ; // testcolomn
     [property: string]: any; // Any other user-defined property
 }
 
